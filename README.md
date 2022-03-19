@@ -1,3 +1,3 @@
-# Examples from Core Java by Cay Horstman
+# Core Java
 
-Making my own code base.
+Making my own code base. Examples from Core Java by Cay Horstman.
