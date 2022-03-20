@@ -1,4 +1,4 @@
-package draw;
+package swing.draw;
 
 import java.awt.*;
 import java.awt.geom.*;
@@ -36,7 +36,7 @@ class DrawComponent extends JComponent
    {
       var g2 = (Graphics2D) g;
 
-      // draw a rectangle
+      // swing.draw a rectangle
 
       double leftX = 100;
       double topY = 100;
@@ -46,17 +46,17 @@ class DrawComponent extends JComponent
       var rect = new Rectangle2D.Double(leftX, topY, width, height);
       g2.draw(rect);
 
-      // draw the enclosed ellipse
+      // swing.draw the enclosed ellipse
 
       var ellipse = new Ellipse2D.Double();
       ellipse.setFrame(rect);
       g2.draw(ellipse);
 
-      // draw a diagonal line
+      // swing.draw a diagonal line
 
       g2.draw(new Line2D.Double(leftX, topY, leftX + width, topY + height));
 
-      // draw a circle with the same center
+      // swing.draw a circle with the same center
 
       double centerX = rect.getCenterX();
       double centerY = rect.getCenterY();

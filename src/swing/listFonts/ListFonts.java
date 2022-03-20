@@ -1,4 +1,4 @@
-package listFonts;
+package swing.listFonts;
 
 import java.awt.*;
 

@@ -1,4 +1,4 @@
-package font;
+package swing.font;
 
 import java.awt.*;
 import java.awt.font.*;
@@ -63,17 +63,17 @@ class FontComponent extends JComponent
       double ascent = -bounds.getY();
       double baseY = y + ascent;
 
-      // draw the message
+      // swing.draw the message
 
       g2.drawString(message, (int) x, (int) baseY);
 
       g2.setPaint(Color.LIGHT_GRAY);
 
-      // draw the baseline
+      // swing.draw the baseline
 
       g2.draw(new Line2D.Double(x, baseY, x + bounds.getWidth(), baseY));
 
-      // draw the enclosing rectangle
+      // swing.draw the enclosing rectangle
 
       var rect = new Rectangle2D.Double(x, y, bounds.getWidth(), bounds.getHeight());
       g2.draw(rect);
