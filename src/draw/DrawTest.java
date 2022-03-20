@@ -4,10 +4,6 @@ import java.awt.*;
 import java.awt.geom.*;
 import javax.swing.*;
 
-/**
- * @version 1.34 2018-04-10
- * @author Cay Horstmann
- */
 public class DrawTest
 {
    public static void main(String[] args)
@@ -22,9 +18,6 @@ public class DrawTest
    }
 }
 
-/**
- * A frame that contains a panel with drawings.
- */
 class DrawFrame extends JFrame
 {
    public DrawFrame()
@@ -34,9 +27,6 @@ class DrawFrame extends JFrame
    }
 }
 
-/**
- * A component that displays rectangles and ellipses.
- */
 class DrawComponent extends JComponent
 {
    private static final int DEFAULT_WIDTH = 400;
