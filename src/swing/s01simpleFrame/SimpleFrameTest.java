@@ -1,4 +1,4 @@
-package swing.simpleFrame;
+package swing.s01simpleFrame;
 
 import java.awt.*;
 import javax.swing.*;
