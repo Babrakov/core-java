@@ -1,4 +1,4 @@
-package ch11swing.s19calculator;
+package ch11swing.p19calculator;
 
 import java.awt.*;
 import java.awt.event.*;

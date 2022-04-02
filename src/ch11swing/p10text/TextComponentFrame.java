@@ -1,4 +1,4 @@
-package swing.s10text;
+package ch11swing.p10text;
 
 import java.awt.BorderLayout;
 import java.awt.GridLayout;

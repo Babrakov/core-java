@@ -1,4 +1,4 @@
-package swing.s08mouse;
+package ch11swing.p08mouse;
 
 import javax.swing.*;
 

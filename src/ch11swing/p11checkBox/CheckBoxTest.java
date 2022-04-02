@@ -1,4 +1,4 @@
-package swing.s11checkBox;
+package ch11swing.p11checkBox;
 
 import java.awt.*;
 import javax.swing.*;

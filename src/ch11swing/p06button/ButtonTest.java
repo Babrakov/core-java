@@ -1,4 +1,4 @@
-package swing.s06button;
+package ch11swing.p06button;
 
 import java.awt.*;
 import javax.swing.*;

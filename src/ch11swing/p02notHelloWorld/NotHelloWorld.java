@@ -1,4 +1,4 @@
-package swing.s02notHelloWorld;
+package ch11swing.p02notHelloWorld;
 
 import javax.swing.*;
 import java.awt.*;

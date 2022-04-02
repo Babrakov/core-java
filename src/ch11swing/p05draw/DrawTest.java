@@ -1,4 +1,4 @@
-package swing.s05draw;
+package ch11swing.p05draw;
 
 import java.awt.*;
 import java.awt.geom.*;

@@ -1,4 +1,4 @@
-package ch11swing.s14comboBox;
+package ch11swing.p14comboBox;
 
 import java.awt.*;
 import javax.swing.*;

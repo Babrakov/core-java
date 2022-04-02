@@ -1,4 +1,4 @@
-package swing.s09preferences;
+package ch11swing.p09preferences;
 
 import java.awt.EventQueue;
 import java.awt.event.*;

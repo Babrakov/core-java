@@ -1,4 +1,4 @@
-package ch11swing.s24dataExchange;
+package ch11swing.p24dataExchange;
 
 /**
  * A user has a name and password. For security reasons, the password is stored as a char[], not a

@@ -1,4 +1,4 @@
-package ch11swing.s15slider;
+package ch11swing.p15slider;
 
 import java.awt.*;
 import javax.swing.*;

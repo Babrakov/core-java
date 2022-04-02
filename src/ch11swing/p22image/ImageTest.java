@@ -1,4 +1,4 @@
-package ch11swing.s22image;
+package ch11swing.p22image;
 
 import java.awt.*;
 import javax.swing.*;

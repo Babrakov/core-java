@@ -1,4 +1,4 @@
-package swing.s12radioButton;
+package ch11swing.p12radioButton;
 
 import java.awt.*;
 import javax.swing.*;

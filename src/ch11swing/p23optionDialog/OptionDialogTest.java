@@ -1,4 +1,4 @@
-package ch11swing.s23optionDialog;
+package ch11swing.p23optionDialog;
 
 import java.awt.*;
 import javax.swing.*;

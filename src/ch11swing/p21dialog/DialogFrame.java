@@ -1,4 +1,4 @@
-package ch11swing.s21dialog;
+package ch11swing.p21dialog;
 
 import javax.swing.JFrame;
 import javax.swing.JMenu;

@@ -1,4 +1,4 @@
-package ch11swing.s17toolbar;
+package ch11swing.p17toolbar;
 
 import java.awt.*;
 import java.awt.event.*;

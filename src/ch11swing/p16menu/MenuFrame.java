@@ -1,4 +1,4 @@
-package ch11swing.s16menu;
+package ch11swing.p16menu;
 
 import java.awt.event.*;
 import javax.swing.*;

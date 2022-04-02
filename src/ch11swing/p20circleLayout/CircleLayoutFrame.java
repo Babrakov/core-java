@@ -1,4 +1,4 @@
-package ch11swing.s20circleLayout;
+package ch11swing.p20circleLayout;
 
 import javax.swing.*;
 

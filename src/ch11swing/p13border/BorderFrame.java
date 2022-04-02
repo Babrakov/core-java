@@ -1,4 +1,4 @@
-package swing.s13border;
+package ch11swing.p13border;
 
 import java.awt.*;
 import javax.swing.*;

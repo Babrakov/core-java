@@ -1,4 +1,4 @@
-package ch11swing.s24dataExchange;
+package ch11swing.p24dataExchange;
 
 import java.awt.*;
 import java.awt.event.*;

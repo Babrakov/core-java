@@ -1,4 +1,4 @@
-package swing.s04font;
+package ch11swing.p04font;
 
 import java.awt.*;
 import java.awt.font.*;

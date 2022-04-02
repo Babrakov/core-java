@@ -1,4 +1,4 @@
-package ch11swing.s25fileChooser;
+package ch11swing.p25fileChooser;
 
 import java.awt.*;
 import java.io.*;

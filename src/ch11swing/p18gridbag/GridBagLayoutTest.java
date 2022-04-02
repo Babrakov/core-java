@@ -1,4 +1,4 @@
-package ch11swing.s18gridbag;
+package ch11swing.p18gridbag;
 
 import java.awt.EventQueue;
 

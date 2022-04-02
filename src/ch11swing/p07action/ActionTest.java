@@ -1,4 +1,4 @@
-package swing.s07action;
+package ch11swing.p07action;
 
 import java.awt.*;
 import javax.swing.*;
