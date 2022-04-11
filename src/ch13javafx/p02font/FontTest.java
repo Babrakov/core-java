@@ -1,4 +1,4 @@
-package font;
+package ch13javafx.p02font;
 
 import javafx.application.*;
 import javafx.geometry.*;
@@ -10,10 +10,6 @@ import javafx.scene.shape.*;
 import javafx.scene.text.*;
 import javafx.stage.*;
 
-/**
-   @version 1.4 2017-12-23
-   @author Cay Horstmann
-*/
 public class FontTest extends Application
 {
    private static final int PREFERRED_WIDTH = 400;
@@ -48,7 +44,7 @@ public class FontTest extends Application
       baseline.setStroke(Color.GRAY);
 
       // Center image directly below the message
-      ImageView image = new ImageView("font/world.png");
+      ImageView image = new ImageView("ch13javafx/p02font/images/world.png");
       Bounds imageBounds = image.getBoundsInParent();      
       image.relocate((PREFERRED_WIDTH - imageBounds.getWidth()) / 2,
          baseY + descent);
