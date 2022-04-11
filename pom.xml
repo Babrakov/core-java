@@ -4,10 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.example</groupId>
-    <artifactId>javafx-test</artifactId>
+    <groupId>ga.ber-lo</groupId>
+    <artifactId>core-java</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>javafx-test</name>
+    <name>core-java</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
