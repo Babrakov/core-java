@@ -1,20 +1,22 @@
-package fxml;
+package ch13javafx.p06fxml;
 
-import java.io.*;
-import java.net.*;
-import java.util.*;
+import javafx.application.Application;
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
+import javafx.scene.control.Button;
+import javafx.scene.control.PasswordField;
+import javafx.scene.control.TextField;
+import javafx.stage.Stage;
 
-import javafx.application.*;
-import javafx.fxml.*;
-import javafx.scene.*;
-import javafx.scene.control.*;
-import javafx.scene.control.Alert.*;
-import javafx.stage.*;
+import java.io.IOException;
+import java.net.URL;
+import java.util.ResourceBundle;
 
-/**
-   @version 1.0 2017-12-29
-   @author Cay Horstmann
-*/
 public class FXMLDemo extends Application implements Initializable
 {
    @FXML private TextField username;
