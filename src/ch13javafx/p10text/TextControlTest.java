@@ -1,4 +1,4 @@
-package text;
+package ch13javafx.p10text;
 
 import javafx.application.*;
 import javafx.geometry.*;
@@ -8,10 +8,6 @@ import javafx.scene.layout.*;
 import javafx.scene.text.*;
 import javafx.stage.*;
 
-/**
-   @version 1.5 2017-12-29
-   @author Cay Horstmann
-*/
 public class TextControlTest extends Application
 {
    public void start(Stage stage)

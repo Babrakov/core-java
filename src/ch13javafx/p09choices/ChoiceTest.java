@@ -1,4 +1,4 @@
-package choices;
+package ch13javafx.p09choices;
 
 import javafx.application.*;
 import javafx.event.*;
@@ -9,10 +9,6 @@ import javafx.scene.layout.*;
 import javafx.scene.text.*;
 import javafx.stage.*;
 
-/**
-   @version 1.4 2017-12-29
-   @author Cay Horstmann
-*/
 public class ChoiceTest extends Application
 {
    private static final double rem = new Text("").getLayoutBounds().getHeight();

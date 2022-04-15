@@ -1,4 +1,4 @@
-package menu;
+package ch13javafx.p11menu;
 
 import javafx.application.*;
 import javafx.event.*;
@@ -9,10 +9,6 @@ import javafx.scene.input.*;
 import javafx.scene.layout.*;
 import javafx.stage.*;
 
-/**
-   @version 1.3 2017-12-29
-   @author Cay Horstmann
-*/
 public class MenuTest extends Application
 {
    private TextArea textArea = new TextArea();
@@ -82,14 +78,14 @@ public class MenuTest extends Application
       // demonstrate icons
 
       MenuItem cutItem = new MenuItem("Cut",
-         new ImageView("menu/cut.gif"));
+         new ImageView("ch13javafx/p11menu/cut.gif"));
       MenuItem copyItem = new MenuItem("Copy",
-         new ImageView("menu/copy.gif"));
+         new ImageView("ch13javafx/p11menu/copy.gif"));
       MenuItem pasteItem = new MenuItem("Paste",
-         new ImageView("menu/paste.gif"));      
+         new ImageView("ch13javafx/p11menu/paste.gif"));
 
       // demonstrate context menu
-      
+
       ContextMenu contextMenu = new ContextMenu(cutItem, copyItem, pasteItem);
       textArea.setContextMenu(contextMenu);
 
@@ -100,9 +96,9 @@ public class MenuTest extends Application
       // demonstrate nested menus
 
       Menu optionsMenu = new Menu("Options",
-         new ImageView("menu/options.gif"), readOnlyItem,
+         new ImageView("ch13javafx/p11menu/options.gif"), readOnlyItem,
          insertItem, overtypeItem);
-      
+
       editMenu.getItems().add(optionsMenu);
      
       // demonstrate mnemonics

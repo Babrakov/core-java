@@ -1,11 +1,13 @@
-package css;
+package ch13javafx.p08css;
 
-import java.io.*;
-import javafx.application.*;
-import javafx.fxml.*;
-import javafx.scene.*;
-import javafx.scene.control.*;
-import javafx.stage.*;
+import javafx.application.Application;
+import javafx.application.Platform;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
+import java.io.IOException;
 
 public class CSSDemo extends Application
 {
@@ -16,7 +18,7 @@ public class CSSDemo extends Application
          Parent root = FXMLLoader.load(getClass().getResource("dialog.fxml"));
          root.lookup("#username").getStyleClass().add("highlight");
          Scene scene = new Scene(root);
-         scene.getStylesheets().add("css/scene1.css");
+         scene.getStylesheets().add("scene1.css");
          stage.setScene(scene);
          stage.setTitle("CSSDemo");
          stage.show();
